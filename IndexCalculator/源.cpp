@@ -5,7 +5,7 @@ int main()
 	int a=10000, i, b[3], c[3]; //a：上界  i：指标  b：分子  c：分母
 	int j, k, l, m; //循环用变量
 	bool result = true;
-	cout << "a=" << a << endl;
+	cout << "please input index:" << endl;
 	cin	>> i  ;
 	cout << "I=" << i << endl;
 	for (j = 1; j < a; j++)  //到达上界后退出
@@ -67,6 +67,7 @@ int main()
 			break;
 		}
 	}
+	cout << "complete" << endl;
 	system("pause");
 	return 0;
 } 
